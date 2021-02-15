@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:500&display=swap');
+
+*,
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+main {
+    background-color: darkgray;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 5rem;
+}
+
+.logo {
+    width: 17rem;
+}
+
+h3.logo {
+    font-size: 1rem;
+}
+
+header nav {
+    height: 100%;
+    display: flex;
+    width: 80vw;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header nav li {
+    list-style: none;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+header hgroup {
+    padding: 1rem;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main.aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    text-align: left;
+}
+
+form {
+    width: 45vw;
+    height: 73vh;
+    padding: 1rem;
+    background-color: white;
+    padding: 3rem 6rem;
+}
+
+form div+div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input {
+    width: 200px;
+    border: 1px solid black;
+}
+
+button {
+    padding: .5rem;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 1rem;
+}
+
+textarea {
+    width: 20rem;
+    height: 10rem;
+    vertical-align: top;
+
+}
+
+main section {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 1rem 0;
+    justify-content: space-around;
+}
+
+main section article {
+    background-color: white;
+    padding: 1rem;
+    margin: .5rem;
+}
+
+section.index {
+    background-color: white;
+}
+
+section.projects1 {
+    display: flex;
+    flex-direction: column;
+}
+
+section.personallife1,
+.personallife2 {
+    margin: 0;
+    width: 100vw;
+
+}
+
+article.contact {
+    width: 48vw;
+    height: 73vh;
+    margin: 0;
+    text-align: center;
+}
+
+
+article.school,
+.interests {
+    width: 65vw;
+    height: 35vh;
+    text-align: center;
+}
+
+article.tools,
+.sidenote {
+    width: 35vw;
+    height: 35vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+article.sidenote {
+    background-image: url(../pictures/IMG_0318.jpeg);
+    color: white;
+}
+
+article.tools {
+    background-image: url(../pictures/Adobe-Logo.png);
+    background-repeat: no-repeat;
+}
+
+article.introtext {
+    vertical-align: middle;
+}
+
+span.white {
+    color: white;
+}
+
+
+img.nightlife {
+    height: 30vh;
+    float: right;
+    margin-left: 1rem;
+    position: relative;
+    top: -100px;
+
+}
+
+img.tekeningen {
+    width: 600px;
+    margin: 1.5rem;
+
+}
+
+img.hvalogo {
+    max-height: 25vh;
+    float: left;
+}
+
+p.nightlife {
+    max-width: 500px;
+}
+
+h1.introtext {
+    font-size: 2rem;
+}
+
+.introtext {
+    padding: 1rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+article.projects1 {
+    width: 50vw;
+    height: 40vh;
+}
+
+section article a {
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+img.hellopic {
+    border-radius: 40%;
+    max-height: 100%;
+    max-width: 100%;
+    width: 50vh;
+}
+
+footer {
+    padding: 2rem;
+    background-color: black;
+    color: white;
+}
